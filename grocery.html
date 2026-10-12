@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <!-- tailwind css -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-[url(./images/bg.jpeg)] min-h-screen px-28 py-5">
+        <!-- navbar -->
+         <nav class="flex items-center">
+            <!-- logo -->
+             <img class="w-30 cursor-pointer" src="./images/logo.png" alt="LOGO">
+             <ul class="flex-1 text-center">
+                <li class="list-none inline-block"><a class="text-white px-2" href="">Home</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="">About</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="">Features</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="">Contact</a></li>
+             </ul>
+             <img class="w-10 cursor-pointer" src="./images/cart.png" alt="CART">
+         </nav>
+         <!-- landing part -->
+          <div class="text-white lg:grid grid-cols-2 gap-4 mt-10 items-center text-center lg:text-start">
+            <div>
+                <h1 class="text-6xl font-semibold leading-normal mb-5">Groceries <br> delivery in 15 minutes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis soluta eius atque laborum pariatur molestiae minus voluptatibus, fugit, accusamus consectetur molestias iusto at odit dolores debitis sit dolorum. Sunt.</p>
+                <div class="mt-10">
+                    <a class="bg-yellow-400 py-3 px-8 rounded-3x1 font-medium mr-5 border border-yellow-400  hover:bg-transparent" href="">Order Now</a>
+                    <a href="">Download App &darr;</a>
+                </div>
+            </div>
+            <div>
+                <img src="https://png.pngtree.com/png-clipart/20240306/original/pngtree-man-buying-groceries-in-supermarket-png-image_14529453.png" alt="grocery man">
+            </div></div>
+            <!-- grocery card -->
+             <div class="my-10 text-white">
+             <h1 class="text-5xl text-center font-semibold">Popular Groceries</h1>
+                
+            <div class="lg:grid grid-cols-3">
+                <!-- card -->
+                <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                    <img src="https://png.pngtree.com/png-vector/20240822/ourmid/pngtree-freshness-packed-in-every-egg-carton-on-transparent-background-png-image_13591613.png" alt="item">
+                    <h3 class="text-lg text-black font medium">Grocery 1</h3>
+                </div>
+
+                <div class="border rounded bg-white p-5  text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                    <img src="https://png.pngtree.com/png-clipart/20240321/original/pngtree-a-group-of-red-apples-png-image_14640167.png" alt="item">
+                    <h3 class="text-lg text-black font medium">Grocery 2</h3>
+                </div>
+
+                <div class="border rounded bg-white p-5  text-center mb-5 lg:mb-0 transition-transform duration-300 hover:translate-y-3">
+                    <img src="https://png.pngtree.com/png-vector/20240822/ourmid/pngtree-freshness-packed-in-every-egg-carton-on-transparent-background-png-image_13591613.png" alt="item">
+                    <h3 class="text-lg text-black font medium">Grocery 3</h3>
+                </div>
+
+            </div>
+             </div>
+
+        <!-- CONTACT -->
+         <div class="lg:grid grid-cols-4 text-white mb-10">
+            <div class="col-span-1">
+                <h1 class="text-2xl font-semibold">Contact Us</h1>
+                <p class="my-3">info@grocery.com</p>
+                <p>+91 9496584758</p>
+            </div>
+            <div class="col-span-1">
+
+            </div>
+            <div class="col-span-2">
+                <h1 class="text-2xl font-semibold">Subscribe to our Mailbox</h1>
+                <div class="flex mt-3">
+                    <input class="p-2 border w-full text-gray-200" type="text">
+                    <button class="bg-yellow-400 px-2 mx-2 rounded">Subscribe</button>
+                </div>
+            </div>
+         </div>
+        
+         <!-- footer -->
+          <footer class="text-white text-center p-3">
+            &copy; All Rights are Reserved
+          </footer>
+    </div>
+</body>
+</html>
